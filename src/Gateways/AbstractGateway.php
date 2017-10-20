@@ -17,7 +17,7 @@ class AbstractGateway
 
     /**
      * The gateway name.
-     * should be the same as in the config file
+     * should be the same as in the config file.
      *
      * @var string
      */
@@ -66,8 +66,9 @@ class AbstractGateway
      * @param $endpoint
      * @param array $options
      *
-     * @return mixed
      * @throws GatewayException
+     *
+     * @return mixed
      */
     public function postRequest($endpoint, $options)
     {
@@ -80,7 +81,6 @@ class AbstractGateway
 
             return $response;
         } catch (RequestException $e) {
-
         }
     }
 }

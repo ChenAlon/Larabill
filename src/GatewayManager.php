@@ -20,7 +20,8 @@ class GatewayManager extends Manager
     /**
      * Set the default gateway driver name.
      *
-     * @param  string  $name
+     * @param string $name
+     *
      * @return void
      */
     public function setDefaultDriver($name)
@@ -36,6 +37,7 @@ class GatewayManager extends Manager
     protected function createIcountDriver()
     {
         $config = $this->app['config']->get('larabill.gateways.icount', []);
+
         return new IcountGateway();
     }
 }

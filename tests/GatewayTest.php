@@ -7,7 +7,7 @@ use Bwebi\Larabill\Facades\Larabill;
 class GatewayTest extends TestCase
 {
     /**
-     * Testing the gateway authentication process
+     * Testing the gateway authentication process.
      *
      * @return void
      */
@@ -17,7 +17,7 @@ class GatewayTest extends TestCase
     }
 
     /**
-     * Testing the gateway credit card storing process
+     * Testing the gateway credit card storing process.
      *
      * @return void
      */
