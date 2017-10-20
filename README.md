@@ -18,5 +18,5 @@ Currently supporting: iCount
 
 ## ENV Variables
 ```
-LARABILL_GATEWAY=pelecard
+LARABILL_GATEWAY=icount
 ```
