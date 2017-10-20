@@ -15,3 +15,8 @@ Currently supporting: iCount
 ## Code Samples
 
 > TODO
+
+## ENV Variables
+```
+LARABILL_GATEWAY=pelecard
+```
