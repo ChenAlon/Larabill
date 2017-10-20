@@ -9,9 +9,10 @@ use Orchestra\Testbench\TestCase as Orchestra;
 class TestCase extends Orchestra
 {
     /**
-     * Load package service provider
+     * Load package service provider.
      *
-     * @param  \Illuminate\Foundation\Application $app
+     * @param \Illuminate\Foundation\Application $app
+     *
      * @return \Bwebi\Larabill\LarabillServiceProvider
      */
     protected function getPackageProviders($app)
@@ -20,9 +21,10 @@ class TestCase extends Orchestra
     }
 
     /**
-     * Load package alias
+     * Load package alias.
      *
-     * @param  \Illuminate\Foundation\Application $app
+     * @param \Illuminate\Foundation\Application $app
+     *
      * @return array
      */
     protected function getPackageAliases($app)

@@ -1,4 +1,6 @@
 # Larabill
+<a href="https://styleci.io/repos/107659388"><img src="https://styleci.io/repos/107659388/shield?branch=master" alt="StyleCI"></a>
+<a href="https://travis-ci.org/BWEBI/Larabill"><img src="https://travis-ci.org/BWEBI/Larabill.svg?branch=analysis-XNgJJG" alt="Travis CI"></a>
 
 > **IMPORTANT NOTE**  
 This package is still in development process.  
