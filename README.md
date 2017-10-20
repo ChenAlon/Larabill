@@ -1,6 +1,7 @@
 # Larabill
 
-> NOTE: This package is still in development process!
+> NOTE: This package is still in development process.  
+It's NOT for production yet!
 
 ## Introduction
 
